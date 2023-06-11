@@ -1,0 +1,72 @@
+body{
+    background-image: none;
+    background-color: none;
+}
+.frame{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:none;
+    
+    display:flexbox;
+    justify-content: center;
+    width: 60%;
+    height:50%
+
+    
+    
+}
+
+
+h2{
+    text-align:center;
+
+
+}
+p{
+    font-size:large;
+    
+}
+input[type="text"]{
+    border:1px solid black;
+    padding:1%;
+    margin:0.5%;
+    border-radius:5%;
+    width:35%;
+
+}
+input[type="text"]:hover{
+    border-color:darkgray;
+}
+
+textarea{
+    width: 30%;
+    height:100%;
+    padding:5%
+}
+table,tr,th,td{
+    width:80%;
+    border:1px solid black;
+    border-collapse:collapse;
+    padding:0.8%;
+    text-align:left;
+
+}
+th{
+    background-color:aquamarine;
+}
+input[type="Submit"]{
+    border:1px solid gray;
+    background-color:green;
+    padding:1%;
+    width:15%;
+    border-radius:5%;
+    color: bisque;
+    float:left;
+    margin:0%;
+}
+input[type="Submit"]:hover{
+    border-color:gray;
+    color:black;
+    background-color:greenyellow;
+}
+
+
